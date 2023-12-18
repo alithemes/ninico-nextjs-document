@@ -15,7 +15,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg">
     <!-- Page Title
     ======================================== -->
-    <title>Consult -  Law, Finance, Tax, Business Consulting NextJS Template | Documentation</title>
+    <title>Ninico - Minimal Ecommerce NextJS Template | Documentation</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -44,7 +44,7 @@
                     <img src="assets/images/logo-alithemes.svg" alt="logo" width="158">
                 </a>
                 <div class="nav-list">
-                    <a href="https://consult-nextjs.vercel.app/" target="_blank"><i class="fas fa-laptop mr-2"></i>Live Demo</a>
+                    <a href="https://ninico-nextjs.vercel.app" target="_blank"><i class="fas fa-laptop mr-2"></i>Live Demo</a>
                     <a href="https://alithemes.ticksy.com/" target="_blank"><i class="fas fa-paper-plane   mr-2"></i>Support</a>
                     <a href="#" class="toggle-navbar"><i class="far fa-bars"></i></a>
                 </div>
@@ -93,36 +93,37 @@
                     <div class="filterable-wrapper">
                         <section>
                             <h1 class="mt-5 mb-0">
-                                <a href="https://consult-nextjs.vercel.app/" target="_blank">
-                                    <img class="product-thumb m-w-200" src="assets/images/logo.png" alt="Consult">
+                                <a href="https://ninico-nextjs.vercel.app" target="_blank">
+                                    <img class="product-thumb m-w-200" src="assets/images/logo.png" alt="Ninico">
                                 </a>
                             </h1>
-                            <h3 class="mt-0 mb-30">Law, Finance, Tax, Business Consulting NextJS Template</h3>
+                            <h3 class="mt-0 mb-30"> Minimal Ecommerce NextJS Template</h3>
                             <h4 class="mt-0">DOCUMENTATION</h4>
                             <ul class="text-small doc-infor">
                                 <li>Doc version: 1.0</li>
-                                <li>Created: 12 Dec 2023</li>
-                                <li>Last update: 12 Dec 2023</li>
+                                <li>Created: 19 Dec 2023</li>
+                                <li>Last update: 19 Dec 2023</li>
                             </ul>
                             <h3 class="mb-5"></h3>
                         </section>
                         <section>
                             <h2 id="overview">OVERVIEW</h2>
-                            <p><strong>Consult</strong> is a modern and eye-catching Business Consulting NextJS 14 Template. This template is perfect for any Business, Financial, Consulting, Tax help, Creative Business, Corporate, Company, etc. to show their services, projects/portfolios, and other information to their customers. It comes with high-quality 24+ Prebuild Home Pages(12 Multi + 12 Onepage) and many built-in awesome inner pages such as service pages, projects pages, team pages, testimonials pages, multiple blog layouts, etc. It’s also 100% responsive that’s why it will work nicely on all smart devices(smartphones, tablets, PCs, and desktops). It’s also well documented and clean-coded that’s why anyone can change it easily.</p>
+                            <p><strong>Ninico</strong>  is a clean and modern React NextJS 14 template. We created this template to give you a smooth user experience as you manage your online shop. You can use this template to sell Fashion Products, Shoes, Bags, Cosmetics, Clothes, Sunglasses, Furniture, Kid’s Products, Electronics, Stationery Products, watch, Food Grocery Sporting Goods, etc. Since it is a minimalist template, Ninico will give you a classy and simple site rather than a flashy one that doesn’t focus on what you’re selling. With these and more features, Ninico will make your website a world-beater.</p>
                             <p>
                                 It will display your content nicely on Desktop, Laptop, iPad, iPhone, Android Mobile, or tablets. This is highly customizable & looks awesome modern react template. We have included the best web development practices – you can create a great website layout.
                             </p>
                             <p>We have a dedicated support center for all of your support needs. It includes our <strong>Documentation</strong> and <strong>Ticket system</strong> for any questions you have.</p>
                             <h3 id="features">Main Features</h3>
                             <ul>
-                                <li>100% Fluid Responsive – Fits any device perfectly</li>
-                                <li>12 Homepage Demos</li>
+                                <li>05 Homepage Demos</li>
                                 <li>Multi Header Styles</li>
                                 <li>Creative and Unique Design</li>
                                 <li>React 18, NextJs 14, <strong>App Router</strong></li>
-                                <li>React aos animation</li>
+                                <li><strong>React Redux 9.x</strong></li>
+                                <li><strong>React Toastify</strong></li>
+                                <li>100% Fluid Responsive – Fits any device perfectly</li>
+                                <li>React wowjs animation</li>
                                 <li>React swiper slider</li>
-                                <li>React-modal-video</li>
                                 <li>100% Responsive</li>
                                 <li>Nice and Clean Design</li>
                                 <li>Clean and commented code</li>
@@ -202,41 +203,47 @@
                             <p>layout.js Structure</p>
                             <pre class="brush: javascript">
                                 <!--
-                                    import 'swiper/css'
-                                    import "swiper/css/navigation"
-                                    import "swiper/css/pagination"
-                                    import "@/node_modules/react-modal-video/css/modal-video.css"
-
-                                    import "public/assets/css/bootstrap.min.css"
-                                    import "public/assets/css/font-awesome-pro.css"
-                                    import "public/assets/css/magnific-popup.css"
-                                    import "public/assets/css/owl.carousel.min.css"
-                                    import "public/assets/css/slick-slider.css"
-                                    import "public/assets/css/meanmenu.css"
-                                    import "public/assets/css/typography.css"
-                                    import "public/assets/css/preloader.css"
-                                    import "public/assets/css/mobile-menu.css"
-                                    import "public/assets/css/header.css"
-                                    import "public/assets/css/footer.css"
-                                    import "public/assets/css//aos.css"
-                                    import "public/assets/css/fonts.css"
-                                    import "public/assets/css/blog-page.css"
-                                    import "public/assets/css/nice-select.css"
-                                    import "public/assets/css/modal-video.min.css"
-                                    import "public/assets/css/responsive.css"
-                                    import "public/assets/css/comon.css"
-                                    import "public/assets/css/Consult-unit.css"
-                                    import "public/assets/css/Consult-core.css"
-                                    import "public/assets/css/style.css"
-                                    export const metadata = {
-                                        title: 'Consult Multipurpose Nextjs Template',
-                                        description: 'Generated by create next app',
-                                    }
-
+                                    'use client'
+                                    import { store } from "@/features/store"
+                                    import { Jost } from 'next/font/google'
+                                    import { Provider } from "react-redux"
+                                    import "react-toastify/dist/ReactToastify.css";
+                                    import { ToastContainer } from "react-toastify"
+                                    import "/public/assets/css/animate.css"
+                                    import "/public/assets/css/bootstrap.min.css"
+                                    import "/public/assets/css/fontawesome.min.css"
+                                    import "/public/assets/css/nice-select.css"
+                                    import "/public/assets/css/slick.css"
+                                    import "/public/assets/css/swiper-bundle.css"
+                                    import "/public/assets/css/magnific-popup.css"
+                                    import "/public/assets/css/meanmenu.css"
+                                    import "/public/assets/css/spacing.css"
+                                    import "/public/assets/css/main.css"
+                                    const jost = Jost({
+                                        weight: ['300', '400', '500', '600', '700'],
+                                        subsets: ['latin'],
+                                        variable: "--tp-ff-body",
+                                    })
                                     export default function RootLayout({ children }) {
                                         return (
-                                            <html lang="en" id="top">
-                                                <body>{children}</body>
+                                            <html lang="en">
+                                                <body className={`${jost.variable}`}>
+                                                    <Provider store={store}>
+                                                        {children}
+                                                        <ToastContainer
+                                                            position="bottom-right"
+                                                            autoClose={500}
+                                                            hideProgressBar={false}
+                                                            newestOnTop={false}
+                                                            closeOnClick
+                                                            rtl={false}
+                                                            pauseOnFocusLoss
+                                                            draggable
+                                                            pauseOnHover
+                                                            theme="colored"
+                                                        />
+                                                    </Provider>
+                                                </body>
                                             </html>
                                         )
                                     }
@@ -246,13 +253,16 @@
                             <p>package.json</p>
                             <pre class="brush: javascript">
                                 "dependencies": {
-                                    "aos": "^2.3.4",
+                                    "@reduxjs/toolkit": "^2.0.1",
                                     "next": "14.0.1",
                                     "react": "18.2.0",
                                     "react-dom": "18.2.0",
+                                    "react-input-range": "^1.3.0",
                                     "react-modal-video": "^2.0.1",
+                                    "react-redux": "^9.0.4",
+                                    "react-toastify": "^9.1.3",
                                     "sass": "^1.69.5",
-                                    "swiper": "^11.0.4",
+                                    "swiper": "^11.0.5",
                                     "wowjs": "^1.1.3"
                                 }
                             </pre>
@@ -272,36 +282,11 @@
                             <p>A React component called Link is provided to do this client-side route transition.</p>
                             <pre class="brush: javascript">
                                 <!--
-                                import Link from 'next/link'
-                                const Header = ({ handleOpen, headerStyle }) => {
-                                    (...)
-                                    return(
-                                        <ul className="sub-menu">
-                                            <li className="has-dropdown has-dropdown1"><Link href="/index4">Multipage<span><i className="fa-solid fa-angle-right" /></span></Link>
-                                                <ul className="sub-menu">
-                                                    <li><Link href="/">Real Estate</Link></li>
-                                                    <li><Link href="/index2">Management</Link></li>
-                                                    <li><Link href="/index3">App landing</Link></li>
-                                                    <li><Link href="/index4">Web Hosting </Link></li>
-                                                    <li><Link href="/index5">Consulting </Link></li>
-                                                </ul>
-                                            </li>
-                                            <li className="has-dropdown has-dropdown1"><Link href="/index4">Landing
-                                                Page<span><i className="fa-solid fa-angle-right" /></span></Link>
-                                                <ul className="sub-menu">
-                                                    <li><Link href="/single-index1">Real Estate</Link></li>
-                                                    <li><Link href="/single-index2">Management</Link></li>
-                                                    <li><Link href="/single-index3">App landing</Link></li>
-                                                    <li><Link href="/single-index4">Web Hosting </Link></li>
-                                                    <li><Link href="/single-index5">Consulting </Link></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                            ...
-                                            ...
-                                    )
-                                }
-                                export default Header;
+                                <li><Link href="/">Wooden Home</Link></li>
+                                <li><Link href="/index-2">Fashion Home</Link></li>
+                                <li><Link href="/index-3">Furniture Home</Link></li>
+                                <li><Link href="/index-4">Cosmetics Home</Link></li>
+                                <li><Link href="/index-5">Food Grocery</Link></li>
 
                                 -->
                             </pre>
@@ -364,7 +349,7 @@
     <!-- End of .main-content -->
     <footer class="page-footer">
         <div class="container-fluid text-center">
-            <p>&copy; 2023, <strong class="text-brand">Consult</strong> -   Law, Finance, Tax, Business Consulting NextJS Template</p>
+            <p>&copy; 2023, <strong class="text-brand">Ninico</strong> -   Minimal Ecommerce NextJS Template</p>
         </div>
         <!-- End of .page-footer -->
     </footer>
